@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>元器件管理系统</title>
+   <!-- <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.prod.min.js"></script> -->
+
+  <script src="{% static "tailwindcss.js" %}"></script>
+  <script src="{% static "chart.umd.min.js" %}"></script>
+  <link href="{% static "all.min.css" %}" rel="stylesheet">
+
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#0FC6C2',
+            success: '#00B42A',
+            warning: '#FF7D00',
+            danger: '#F53F3F',
+            info: '#86909C',
+            light: '#F2F3F5',
+            dark: '#1D2129',
+          },
+          fontFamily: {
+            inter: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+
+  </script>
+  <!-- <style>@import "tailwindcss";</style> -->
+  <style type="text/tailwindcss">
+    
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .card-shadow {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .hover-scale {
+        transition: transform 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.02);
+      }
+      .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="{% static "assets/index.js" %}"></script>
+  <link rel="stylesheet" crossorigin href="{% static "assets/index.css" %}">
+</head>
+<body class="bg-gray-50 font-inter text-dark">
+  <div id="app"></div>
+</body>
+</html>  
