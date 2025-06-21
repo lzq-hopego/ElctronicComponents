@@ -49,7 +49,7 @@ DATABASES = {
     }
 }
 ```
-#### 2.1.1使用mysql还需要给*ElctronicComponents*目录下的*__init__.py*文件
+#### 2.1.1使用mysql还需要给*ElctronicComponents*目录下的 *\__init\__.py* 文件
 - 添加如下内容
 ```
 import pymysql
