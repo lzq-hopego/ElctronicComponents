@@ -62,6 +62,6 @@ pymysql.install_as_MySQLdb()
 ```
 py .\manage.py runserver 0.0.0.0:80
 ```
-> 不可修改为其他接口，不可使用ipv6
+> 不可修改为其他端口，不可使用ipv6
 
 > 现在浏览器访问 http://127.0.0.1/ 即可
