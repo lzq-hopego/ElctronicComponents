@@ -7,7 +7,7 @@
 
 
 ## 部署教程
-### docker版本
+## docker版本
 - 支持docker部署
 - 分为开发版本和生产环境版本，区别在于生产环境能应对更艰巨的请求和处理，开发版本有在于体积小，功能一致，后缀为* -slim-bookworm *为开发版本
 - [百度网盘](https://pan.baidu.com/s/1tlUWyn5UERDjW748BaO_5A?pwd=u9fh)和[联想网盘(速度会快一点)](https://lecloud.lenovo.com/share/9RNsX7BmH6bGQvfU)
@@ -20,6 +20,8 @@
   ```
   docker run -d -p 8080:80 [imagename]
   ```
+
+## 源码安装
 ### 1.安装依赖
 > 本项目由django编写，使用restframework接口
 
