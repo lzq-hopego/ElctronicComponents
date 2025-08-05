@@ -86,6 +86,8 @@ py .\manage.py runserver 0.0.0.0:80
 
 ## 如何快速添加元器件
 > 可以使用油猴脚本[元器件数据提取](https://greasyfork.org/zh-CN/scripts/544670-%E5%85%83%E5%99%A8%E4%BB%B6%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96)进行快速提取并添加到管理器中，注意只有在商品详情页才可以提取
+- 演示图
+![](./images/4.png)
 
 ## 展示图
 - 主页
